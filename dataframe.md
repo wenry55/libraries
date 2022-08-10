@@ -90,3 +90,10 @@ ymdhm
 2021-10-15 14:40          0.0          0.0  
 
 [1985 rows x 13 columns]
+
+## NaN 값의 앞뒤 몇라인 보기
+1. 먼저 index 를 구하고 => df['x'].isna().index.get_loc()
+2. df.iloc[loc-5:loc+5] 
+
+
+
