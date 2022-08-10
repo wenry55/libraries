@@ -1,3 +1,9 @@
+dataframe.loc[] 와 dataframe[] 는 같습니다.
+loc가 생략된 형태로 보는것이 맞을것 같습니다. 
+
+[] 안에는 True/False 시퀀스가 들어와야 합니다. 
+
+
 ## isna
 
 ```
